@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.3
+aiohttp==3.14.3
     # via uagents
 aiosignal==1.4.0
     # via aiohttp
@@ -27,7 +27,7 @@ attrs==25.4.0
     #   aiohttp
     #   jsonschema
     #   referencing
-authlib==1.6.6
+authlib==1.6.12
     # via google-adk
 bcrypt==5.0.0
     # via cosmpy
@@ -58,7 +58,7 @@ contourpy==1.3.3
     # via matplotlib
 cosmpy==0.11.2
     # via uagents
-cryptography==46.0.3
+cryptography==50.0.0
     # via
     #   authlib
     #   pyjwt
@@ -236,7 +236,7 @@ h11==0.16.0
     #   uvicorn
 httpcore==1.0.9
     # via httpx
-httplib2==0.31.0
+httplib2==0.32.0
     # via
     #   google-api-python-client
     #   google-auth-httplib2
@@ -269,7 +269,7 @@ markupsafe==3.0.3
     # via mako
 matplotlib==3.10.8
     # via ai-due-diligence-agent (pyproject.toml)
-mcp==1.25.0
+mcp==1.28.1
     # via google-adk
 mmh3==5.2.0
     # via google-cloud-spanner
@@ -385,9 +385,9 @@ protobuf==5.29.5
     #   grpcio-status
     #   opentelemetry-proto
     #   proto-plus
-pyarrow==22.0.0
+pyarrow==23.0.1
     # via google-adk
-pyasn1==0.6.1
+pyasn1==0.6.4
     # via
     #   pyasn1-modules
     #   rsa
@@ -409,9 +409,9 @@ pydantic==2.12.5
     #   uagents-core
 pydantic-core==2.41.5
     # via pydantic
-pydantic-settings==2.12.0
+pydantic-settings==2.14.2
     # via mcp
-pyjwt==2.10.1
+pyjwt==2.13.0
     # via mcp
 pynacl==1.6.0
     # via cosmpy
@@ -425,12 +425,12 @@ python-dateutil==2.9.0.post0
     #   google-adk
     #   google-cloud-bigquery
     #   matplotlib
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via
     #   ai-due-diligence-agent (pyproject.toml)
     #   google-adk
     #   pydantic-settings
-python-multipart==0.0.21
+python-multipart==0.0.31
     # via mcp
 pyyaml==6.0.3
     # via google-adk
@@ -438,7 +438,7 @@ referencing==0.37.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.5
+requests==2.33.0
     # via
     #   cosmpy
     #   google-adk
@@ -473,11 +473,11 @@ sqlalchemy==2.0.45
     #   sqlalchemy-spanner
 sqlalchemy-spanner==1.17.2
     # via google-adk
-sqlparse==0.5.5
+sqlparse==0.6.0
     # via google-cloud-spanner
 sse-starlette==3.1.2
     # via mcp
-starlette==0.50.0
+starlette==1.3.1
     # via
     #   fastapi
     #   google-adk
