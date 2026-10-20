@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.3
+aiohttp==3.14.4
     # via uagents
 aiosignal==1.4.0
     # via aiohttp
@@ -14,7 +14,7 @@ annotated-doc==0.0.4
     # via fastapi
 annotated-types==0.7.0
     # via pydantic
-anyio==4.12.0
+anyio==4.14.2
     # via
     #   google-adk
     #   google-genai
@@ -58,7 +58,7 @@ contourpy==1.3.3
     # via matplotlib
 cosmpy==0.11.2
     # via uagents
-cryptography==46.0.3
+cryptography==50.0.0
     # via
     #   authlib
     #   pyjwt
@@ -269,7 +269,7 @@ markupsafe==3.0.3
     # via mako
 matplotlib==3.10.8
     # via ai-due-diligence-agent (pyproject.toml)
-mcp==1.25.0
+mcp==1.30.0
     # via google-adk
 mmh3==5.2.0
     # via google-cloud-spanner
@@ -411,7 +411,7 @@ pydantic-core==2.41.5
     # via pydantic
 pydantic-settings==2.12.0
     # via mcp
-pyjwt==2.10.1
+pyjwt==2.15.0
     # via mcp
 pynacl==1.6.0
     # via cosmpy
@@ -473,7 +473,7 @@ sqlalchemy==2.0.45
     #   sqlalchemy-spanner
 sqlalchemy-spanner==1.17.2
     # via google-adk
-sqlparse==0.5.5
+sqlparse==0.6.0
     # via google-cloud-spanner
 sse-starlette==3.1.2
     # via mcp
@@ -520,14 +520,14 @@ uagents-core==0.4.0
     #   uagents
 uritemplate==4.2.0
     # via google-api-python-client
-urllib3==2.6.2
+urllib3==2.8.0
     # via requests
 uvicorn==0.40.0
     # via
     #   google-adk
     #   mcp
     #   uagents
-virtualenv==20.35.4
+virtualenv==21.7.13
     # via cosmpy
 watchdog==6.0.0
     # via google-adk
