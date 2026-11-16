@@ -10,7 +10,7 @@ langchain-openai==0.3.33
 openai==1.107.1
 # HTTP + async
 httpx==0.27.2
-aiohttp==3.10.9
+aiohttp==3.14.4
 
 # Env + crypto/JWT
 python-dotenv==1.0.1
